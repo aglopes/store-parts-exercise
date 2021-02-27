@@ -1,0 +1,21 @@
+{
+  "name": "store-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node start.js",
+    "format": "prettier --loglevel warn --write \"**/*.{js,css,md}\"",
+    "posttest": "npm run format"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "vue": "^2.6.12",
+    "vue-router": "^3.5.1"
+  },
+  "devDependencies": {
+    "prettier": ">=2"
+  }
+}
